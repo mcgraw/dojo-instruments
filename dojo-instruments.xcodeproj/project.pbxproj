@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0682EEC1A76D79C00B60661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EEB1A76D79C00B60661 /* AppDelegate.swift */; };
+		F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */; };
+		F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF21A76D79C00B60661 /* Main.storyboard */; };
+		F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF51A76D79C00B60661 /* Images.xcassets */; };
+		F0682EF91A76D79C00B60661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF71A76D79C00B60661 /* LaunchScreen.xib */; };
+		F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */; };
+		F09E9FA41A771A6500010B0D /* siberian16.png in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FA31A771A6500010B0D /* siberian16.png */; };
+		F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA51A77268500010B0D /* XMCAllocations.swift */; };
+		F09E9FE71A772E1900010B0D /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD41A772E1900010B0D /* Cache.swift */; };
+		F09E9FE81A772E1900010B0D /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */; };
+		F09E9FE91A772E1900010B0D /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */; };
+		F09E9FEA1A772E1900010B0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD71A772E1900010B0D /* Data.swift */; };
+		F09E9FEB1A772E1900010B0D /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD81A772E1900010B0D /* DiskCache.swift */; };
+		F09E9FEC1A772E1900010B0D /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD91A772E1900010B0D /* DiskFetcher.swift */; };
+		F09E9FED1A772E1900010B0D /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDA1A772E1900010B0D /* Fetch.swift */; };
+		F09E9FEE1A772E1900010B0D /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDB1A772E1900010B0D /* Fetcher.swift */; };
+		F09E9FEF1A772E1900010B0D /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDC1A772E1900010B0D /* Format.swift */; };
+		F09E9FF01A772E1900010B0D /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDE1A772E1900010B0D /* Haneke.swift */; };
+		F09E9FF11A772E1900010B0D /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */; };
+		F09E9FF21A772E1900010B0D /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */; };
+		F09E9FF31A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */; };
+		F09E9FF41A772E1900010B0D /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE21A772E1900010B0D /* String+Haneke.swift */; };
+		F09E9FF51A772E1900010B0D /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */; };
+		F09E9FF61A772E1900010B0D /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */; };
+		F09E9FF71A772E1900010B0D /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */; };
+		F09E9FF81A772E1900010B0D /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */; };
+		F09E9FFA1A7730DC00010B0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FF91A7730DC00010B0D /* Info.plist */; };
+		F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09EA0351A773D8E00010B0D /* XMCLeaks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0682EE61A76D79C00B60661 /* dojo-instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-instruments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0682EEA1A76D79C00B60661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0682EEB1A76D79C00B60661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCTimeProfile.swift; sourceTree = "<group>"; };
+		F0682EF31A76D79C00B60661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0682EF51A76D79C00B60661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0682EF81A76D79C00B60661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCTimeProfileImages.swift; sourceTree = "<group>"; };
+		F09E9FA31A771A6500010B0D /* siberian16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siberian16.png; sourceTree = "<group>"; };
+		F09E9FA51A77268500010B0D /* XMCAllocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCAllocations.swift; sourceTree = "<group>"; };
+		F09E9FA71A77299000010B0D /* instruments-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instruments-Bridging-Header.h"; sourceTree = "<group>"; };
+		F09E9FB81A772C9700010B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09E9FD41A772E1900010B0D /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = instruments/Haneke/Cache.swift; sourceTree = "<group>"; };
+		F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "instruments/Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = instruments/Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		F09E9FD71A772E1900010B0D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = instruments/Haneke/Data.swift; sourceTree = "<group>"; };
+		F09E9FD81A772E1900010B0D /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = instruments/Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		F09E9FD91A772E1900010B0D /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = instruments/Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		F09E9FDA1A772E1900010B0D /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = instruments/Haneke/Fetch.swift; sourceTree = "<group>"; };
+		F09E9FDB1A772E1900010B0D /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = instruments/Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		F09E9FDC1A772E1900010B0D /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Format.swift; path = instruments/Haneke/Format.swift; sourceTree = "<group>"; };
+		F09E9FDD1A772E1900010B0D /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = instruments/Haneke/Haneke.h; sourceTree = "<group>"; };
+		F09E9FDE1A772E1900010B0D /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = instruments/Haneke/Haneke.swift; sourceTree = "<group>"; };
+		F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = instruments/Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "instruments/Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "instruments/Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE21A772E1900010B0D /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "instruments/Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "instruments/Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "instruments/Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "instruments/Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "instruments/Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
+		F09E9FF91A7730DC00010B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09EA0351A773D8E00010B0D /* XMCLeaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCLeaks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0682EE31A76D79C00B60661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAAC724AEC9F24D49F6C44E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09E9FAC1A772C8700010B0D /* Haneke */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0682EDD1A76D79C00B60661 = {
+			isa = PBXGroup;
+			children = (
+				F0682EE81A76D79C00B60661 /* instruments */,
+				F0682EE71A76D79C00B60661 /* Products */,
+				AAAC724AEC9F24D49F6C44E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0682EE71A76D79C00B60661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0682EE61A76D79C00B60661 /* dojo-instruments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0682EE81A76D79C00B60661 /* instruments */ = {
+			isa = PBXGroup;
+			children = (
+				F0682EEB1A76D79C00B60661 /* AppDelegate.swift */,
+				F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */,
+				F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */,
+				F09E9FA51A77268500010B0D /* XMCAllocations.swift */,
+				F09EA0351A773D8E00010B0D /* XMCLeaks.swift */,
+				F0682EF21A76D79C00B60661 /* Main.storyboard */,
+				F0682EF51A76D79C00B60661 /* Images.xcassets */,
+				F0682EF71A76D79C00B60661 /* LaunchScreen.xib */,
+				F0682EE91A76D79C00B60661 /* Supporting Files */,
+				F09E9FA71A77299000010B0D /* instruments-Bridging-Header.h */,
+			);
+			path = instruments;
+			sourceTree = "<group>";
+		};
+		F0682EE91A76D79C00B60661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09E9FA31A771A6500010B0D /* siberian16.png */,
+				F0682EEA1A76D79C00B60661 /* Info.plist */,
+				F09E9FF91A7730DC00010B0D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09E9FAC1A772C8700010B0D /* Haneke */ = {
+			isa = PBXGroup;
+			children = (
+				F09E9FD41A772E1900010B0D /* Cache.swift */,
+				F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */,
+				F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */,
+				F09E9FD71A772E1900010B0D /* Data.swift */,
+				F09E9FD81A772E1900010B0D /* DiskCache.swift */,
+				F09E9FD91A772E1900010B0D /* DiskFetcher.swift */,
+				F09E9FDA1A772E1900010B0D /* Fetch.swift */,
+				F09E9FDB1A772E1900010B0D /* Fetcher.swift */,
+				F09E9FDC1A772E1900010B0D /* Format.swift */,
+				F09E9FDD1A772E1900010B0D /* Haneke.h */,
+				F09E9FDE1A772E1900010B0D /* Haneke.swift */,
+				F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */,
+				F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */,
+				F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */,
+				F09E9FE21A772E1900010B0D /* String+Haneke.swift */,
+				F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */,
+				F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */,
+				F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */,
+				F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */,
+				F09E9FB81A772C9700010B0D /* Info.plist */,
+			);
+			name = Haneke;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0682EE51A76D79C00B60661 /* dojo-instruments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0682F081A76D79C00B60661 /* Build configuration list for PBXNativeTarget "dojo-instruments" */;
+			buildPhases = (
+				F0682EE21A76D79C00B60661 /* Sources */,
+				F0682EE31A76D79C00B60661 /* Frameworks */,
+				F0682EE41A76D79C00B60661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-instruments";
+			productName = instruments;
+			productReference = F0682EE61A76D79C00B60661 /* dojo-instruments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0682EDE1A76D79C00B60661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David McGraw";
+				TargetAttributes = {
+					F0682EE51A76D79C00B60661 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F0682EE11A76D79C00B60661 /* Build configuration list for PBXProject "dojo-instruments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0682EDD1A76D79C00B60661;
+			productRefGroup = F0682EE71A76D79C00B60661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0682EE51A76D79C00B60661 /* dojo-instruments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0682EE41A76D79C00B60661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */,
+				F09E9FA41A771A6500010B0D /* siberian16.png in Resources */,
+				F09E9FFA1A7730DC00010B0D /* Info.plist in Resources */,
+				F0682EF91A76D79C00B60661 /* LaunchScreen.xib in Resources */,
+				F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0682EE21A76D79C00B60661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09E9FE71A772E1900010B0D /* Cache.swift in Sources */,
+				F09E9FE81A772E1900010B0D /* CGSize+Swift.swift in Sources */,
+				F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */,
+				F09E9FF71A772E1900010B0D /* UIImageView+Haneke.swift in Sources */,
+				F09E9FEC1A772E1900010B0D /* DiskFetcher.swift in Sources */,
+				F09E9FF31A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				F09E9FEB1A772E1900010B0D /* DiskCache.swift in Sources */,
+				F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */,
+				F09E9FE91A772E1900010B0D /* CryptoSwiftMD5.swift in Sources */,
+				F09E9FED1A772E1900010B0D /* Fetch.swift in Sources */,
+				F09E9FF41A772E1900010B0D /* String+Haneke.swift in Sources */,
+				F09E9FF61A772E1900010B0D /* UIImage+Haneke.swift in Sources */,
+				F09E9FF51A772E1900010B0D /* UIButton+Haneke.swift in Sources */,
+				F09E9FF11A772E1900010B0D /* NetworkFetcher.swift in Sources */,
+				F09E9FF01A772E1900010B0D /* Haneke.swift in Sources */,
+				F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */,
+				F09E9FF81A772E1900010B0D /* UIView+Haneke.swift in Sources */,
+				F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */,
+				F09E9FEE1A772E1900010B0D /* Fetcher.swift in Sources */,
+				F09E9FEA1A772E1900010B0D /* Data.swift in Sources */,
+				F09E9FEF1A772E1900010B0D /* Format.swift in Sources */,
+				F0682EEC1A76D79C00B60661 /* AppDelegate.swift in Sources */,
+				F09E9FF21A772E1900010B0D /* NSFileManager+Haneke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0682EF21A76D79C00B60661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0682EF31A76D79C00B60661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0682EF71A76D79C00B60661 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0682EF81A76D79C00B60661 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0682F061A76D79C00B60661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0682F071A76D79C00B60661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0682F091A76D79C00B60661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = instruments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "dojo-instruments";
+				SWIFT_OBJC_BRIDGING_HEADER = "instruments/instruments-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0682F0A1A76D79C00B60661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = instruments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "dojo-instruments";
+				SWIFT_OBJC_BRIDGING_HEADER = "instruments/instruments-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0682EE11A76D79C00B60661 /* Build configuration list for PBXProject "dojo-instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0682F061A76D79C00B60661 /* Debug */,
+				F0682F071A76D79C00B60661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0682F081A76D79C00B60661 /* Build configuration list for PBXNativeTarget "dojo-instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0682F091A76D79C00B60661 /* Debug */,
+				F0682F0A1A76D79C00B60661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0682EDE1A76D79C00B60661 /* Project object */;
+}
