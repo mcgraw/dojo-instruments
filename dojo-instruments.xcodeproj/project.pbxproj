@@ -11,7 +11,7 @@
 		F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */; };
 		F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF21A76D79C00B60661 /* Main.storyboard */; };
 		F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF51A76D79C00B60661 /* Images.xcassets */; };
-		F0682EF91A76D79C00B60661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF71A76D79C00B60661 /* LaunchScreen.xib */; };
+		F071E48B1A79EF6A003540E0 /* LaunchScreen_dev.xib in Resources */ = {isa = PBXBuildFile; fileRef = F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */; };
 		F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */; };
 		F09E9FA41A771A6500010B0D /* siberian16.png in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FA31A771A6500010B0D /* siberian16.png */; };
 		F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA51A77268500010B0D /* XMCAllocations.swift */; };
@@ -44,7 +44,7 @@
 		F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCTimeProfile.swift; sourceTree = "<group>"; };
 		F0682EF31A76D79C00B60661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0682EF51A76D79C00B60661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F0682EF81A76D79C00B60661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_dev.xib; sourceTree = "<group>"; };
 		F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCTimeProfileImages.swift; sourceTree = "<group>"; };
 		F09E9FA31A771A6500010B0D /* siberian16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siberian16.png; sourceTree = "<group>"; };
 		F09E9FA51A77268500010B0D /* XMCAllocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCAllocations.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 				F09EA0351A773D8E00010B0D /* XMCLeaks.swift */,
 				F0682EF21A76D79C00B60661 /* Main.storyboard */,
 				F0682EF51A76D79C00B60661 /* Images.xcassets */,
-				F0682EF71A76D79C00B60661 /* LaunchScreen.xib */,
+				F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */,
 				F0682EE91A76D79C00B60661 /* Supporting Files */,
 				F09E9FA71A77299000010B0D /* instruments-Bridging-Header.h */,
 			);
@@ -223,7 +223,7 @@
 				F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */,
 				F09E9FA41A771A6500010B0D /* siberian16.png in Resources */,
 				F09E9FFA1A7730DC00010B0D /* Info.plist in Resources */,
-				F0682EF91A76D79C00B60661 /* LaunchScreen.xib in Resources */,
+				F071E48B1A79EF6A003540E0 /* LaunchScreen_dev.xib in Resources */,
 				F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,14 +270,6 @@
 				F0682EF31A76D79C00B60661 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F0682EF71A76D79C00B60661 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0682EF81A76D79C00B60661 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
