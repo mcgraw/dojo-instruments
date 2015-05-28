@@ -15,26 +15,28 @@
 		F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */; };
 		F09E9FA41A771A6500010B0D /* siberian16.png in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FA31A771A6500010B0D /* siberian16.png */; };
 		F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA51A77268500010B0D /* XMCAllocations.swift */; };
-		F09E9FE71A772E1900010B0D /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD41A772E1900010B0D /* Cache.swift */; };
-		F09E9FE81A772E1900010B0D /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */; };
-		F09E9FE91A772E1900010B0D /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */; };
-		F09E9FEA1A772E1900010B0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD71A772E1900010B0D /* Data.swift */; };
-		F09E9FEB1A772E1900010B0D /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD81A772E1900010B0D /* DiskCache.swift */; };
-		F09E9FEC1A772E1900010B0D /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FD91A772E1900010B0D /* DiskFetcher.swift */; };
-		F09E9FED1A772E1900010B0D /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDA1A772E1900010B0D /* Fetch.swift */; };
-		F09E9FEE1A772E1900010B0D /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDB1A772E1900010B0D /* Fetcher.swift */; };
-		F09E9FEF1A772E1900010B0D /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDC1A772E1900010B0D /* Format.swift */; };
-		F09E9FF01A772E1900010B0D /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDE1A772E1900010B0D /* Haneke.swift */; };
-		F09E9FF11A772E1900010B0D /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */; };
-		F09E9FF21A772E1900010B0D /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */; };
-		F09E9FF31A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */; };
-		F09E9FF41A772E1900010B0D /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE21A772E1900010B0D /* String+Haneke.swift */; };
-		F09E9FF51A772E1900010B0D /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */; };
-		F09E9FF61A772E1900010B0D /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */; };
-		F09E9FF71A772E1900010B0D /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */; };
-		F09E9FF81A772E1900010B0D /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */; };
 		F09E9FFA1A7730DC00010B0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FF91A7730DC00010B0D /* Info.plist */; };
 		F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09EA0351A773D8E00010B0D /* XMCLeaks.swift */; };
+		F0D5F2B01B1743F50073E13B /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F29B1B1743F50073E13B /* Cache.swift */; };
+		F0D5F2B11B1743F50073E13B /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F29C1B1743F50073E13B /* CGSize+Swift.swift */; };
+		F0D5F2B21B1743F50073E13B /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F29D1B1743F50073E13B /* CryptoSwiftMD5.swift */; };
+		F0D5F2B31B1743F50073E13B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F29E1B1743F50073E13B /* Data.swift */; };
+		F0D5F2B41B1743F50073E13B /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F29F1B1743F50073E13B /* DiskCache.swift */; };
+		F0D5F2B51B1743F50073E13B /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A01B1743F50073E13B /* DiskFetcher.swift */; };
+		F0D5F2B61B1743F50073E13B /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A11B1743F50073E13B /* Fetch.swift */; };
+		F0D5F2B71B1743F50073E13B /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A21B1743F50073E13B /* Fetcher.swift */; };
+		F0D5F2B81B1743F50073E13B /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A31B1743F50073E13B /* Format.swift */; };
+		F0D5F2B91B1743F50073E13B /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A51B1743F50073E13B /* Haneke.swift */; };
+		F0D5F2BA1B1743F50073E13B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0D5F2A61B1743F50073E13B /* Info.plist */; };
+		F0D5F2BB1B1743F50073E13B /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A71B1743F50073E13B /* Log.swift */; };
+		F0D5F2BC1B1743F50073E13B /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A81B1743F50073E13B /* NetworkFetcher.swift */; };
+		F0D5F2BD1B1743F50073E13B /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2A91B1743F50073E13B /* NSFileManager+Haneke.swift */; };
+		F0D5F2BE1B1743F50073E13B /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AA1B1743F50073E13B /* NSHTTPURLResponse+Haneke.swift */; };
+		F0D5F2BF1B1743F50073E13B /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AB1B1743F50073E13B /* String+Haneke.swift */; };
+		F0D5F2C01B1743F50073E13B /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AC1B1743F50073E13B /* UIButton+Haneke.swift */; };
+		F0D5F2C11B1743F50073E13B /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AD1B1743F50073E13B /* UIImage+Haneke.swift */; };
+		F0D5F2C21B1743F50073E13B /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AE1B1743F50073E13B /* UIImageView+Haneke.swift */; };
+		F0D5F2C31B1743F50073E13B /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D5F2AF1B1743F50073E13B /* UIView+Haneke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,28 +51,29 @@
 		F09E9FA31A771A6500010B0D /* siberian16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siberian16.png; sourceTree = "<group>"; };
 		F09E9FA51A77268500010B0D /* XMCAllocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCAllocations.swift; sourceTree = "<group>"; };
 		F09E9FA71A77299000010B0D /* instruments-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instruments-Bridging-Header.h"; sourceTree = "<group>"; };
-		F09E9FB81A772C9700010B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F09E9FD41A772E1900010B0D /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = instruments/Haneke/Cache.swift; sourceTree = "<group>"; };
-		F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "instruments/Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
-		F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = instruments/Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
-		F09E9FD71A772E1900010B0D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = instruments/Haneke/Data.swift; sourceTree = "<group>"; };
-		F09E9FD81A772E1900010B0D /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = instruments/Haneke/DiskCache.swift; sourceTree = "<group>"; };
-		F09E9FD91A772E1900010B0D /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = instruments/Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
-		F09E9FDA1A772E1900010B0D /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = instruments/Haneke/Fetch.swift; sourceTree = "<group>"; };
-		F09E9FDB1A772E1900010B0D /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = instruments/Haneke/Fetcher.swift; sourceTree = "<group>"; };
-		F09E9FDC1A772E1900010B0D /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Format.swift; path = instruments/Haneke/Format.swift; sourceTree = "<group>"; };
-		F09E9FDD1A772E1900010B0D /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = instruments/Haneke/Haneke.h; sourceTree = "<group>"; };
-		F09E9FDE1A772E1900010B0D /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = instruments/Haneke/Haneke.swift; sourceTree = "<group>"; };
-		F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = instruments/Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
-		F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "instruments/Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "instruments/Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE21A772E1900010B0D /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "instruments/Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "instruments/Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "instruments/Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "instruments/Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "instruments/Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
 		F09E9FF91A7730DC00010B0D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09EA0351A773D8E00010B0D /* XMCLeaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCLeaks.swift; sourceTree = "<group>"; };
+		F0D5F29B1B1743F50073E13B /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = instruments/Haneke/Cache.swift; sourceTree = "<group>"; };
+		F0D5F29C1B1743F50073E13B /* CGSize+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "instruments/Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		F0D5F29D1B1743F50073E13B /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = instruments/Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		F0D5F29E1B1743F50073E13B /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Data.swift; path = instruments/Haneke/Data.swift; sourceTree = "<group>"; };
+		F0D5F29F1B1743F50073E13B /* DiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = instruments/Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		F0D5F2A01B1743F50073E13B /* DiskFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = instruments/Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		F0D5F2A11B1743F50073E13B /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = instruments/Haneke/Fetch.swift; sourceTree = "<group>"; };
+		F0D5F2A21B1743F50073E13B /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = instruments/Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		F0D5F2A31B1743F50073E13B /* Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Format.swift; path = instruments/Haneke/Format.swift; sourceTree = "<group>"; };
+		F0D5F2A41B1743F50073E13B /* Haneke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = instruments/Haneke/Haneke.h; sourceTree = "<group>"; };
+		F0D5F2A51B1743F50073E13B /* Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = instruments/Haneke/Haneke.swift; sourceTree = "<group>"; };
+		F0D5F2A61B1743F50073E13B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = instruments/Haneke/Info.plist; sourceTree = "<group>"; };
+		F0D5F2A71B1743F50073E13B /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Log.swift; path = instruments/Haneke/Log.swift; sourceTree = "<group>"; };
+		F0D5F2A81B1743F50073E13B /* NetworkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = instruments/Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		F0D5F2A91B1743F50073E13B /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "instruments/Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AA1B1743F50073E13B /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "instruments/Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AB1B1743F50073E13B /* String+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "instruments/Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AC1B1743F50073E13B /* UIButton+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "instruments/Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AD1B1743F50073E13B /* UIImage+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "instruments/Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AE1B1743F50073E13B /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "instruments/Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		F0D5F2AF1B1743F50073E13B /* UIView+Haneke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "instruments/Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,26 +142,27 @@
 		F09E9FAC1A772C8700010B0D /* Haneke */ = {
 			isa = PBXGroup;
 			children = (
-				F09E9FD41A772E1900010B0D /* Cache.swift */,
-				F09E9FD51A772E1900010B0D /* CGSize+Swift.swift */,
-				F09E9FD61A772E1900010B0D /* CryptoSwiftMD5.swift */,
-				F09E9FD71A772E1900010B0D /* Data.swift */,
-				F09E9FD81A772E1900010B0D /* DiskCache.swift */,
-				F09E9FD91A772E1900010B0D /* DiskFetcher.swift */,
-				F09E9FDA1A772E1900010B0D /* Fetch.swift */,
-				F09E9FDB1A772E1900010B0D /* Fetcher.swift */,
-				F09E9FDC1A772E1900010B0D /* Format.swift */,
-				F09E9FDD1A772E1900010B0D /* Haneke.h */,
-				F09E9FDE1A772E1900010B0D /* Haneke.swift */,
-				F09E9FDF1A772E1900010B0D /* NetworkFetcher.swift */,
-				F09E9FE01A772E1900010B0D /* NSFileManager+Haneke.swift */,
-				F09E9FE11A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift */,
-				F09E9FE21A772E1900010B0D /* String+Haneke.swift */,
-				F09E9FE31A772E1900010B0D /* UIButton+Haneke.swift */,
-				F09E9FE41A772E1900010B0D /* UIImage+Haneke.swift */,
-				F09E9FE51A772E1900010B0D /* UIImageView+Haneke.swift */,
-				F09E9FE61A772E1900010B0D /* UIView+Haneke.swift */,
-				F09E9FB81A772C9700010B0D /* Info.plist */,
+				F0D5F29B1B1743F50073E13B /* Cache.swift */,
+				F0D5F29C1B1743F50073E13B /* CGSize+Swift.swift */,
+				F0D5F29D1B1743F50073E13B /* CryptoSwiftMD5.swift */,
+				F0D5F29E1B1743F50073E13B /* Data.swift */,
+				F0D5F29F1B1743F50073E13B /* DiskCache.swift */,
+				F0D5F2A01B1743F50073E13B /* DiskFetcher.swift */,
+				F0D5F2A11B1743F50073E13B /* Fetch.swift */,
+				F0D5F2A21B1743F50073E13B /* Fetcher.swift */,
+				F0D5F2A31B1743F50073E13B /* Format.swift */,
+				F0D5F2A41B1743F50073E13B /* Haneke.h */,
+				F0D5F2A51B1743F50073E13B /* Haneke.swift */,
+				F0D5F2A61B1743F50073E13B /* Info.plist */,
+				F0D5F2A71B1743F50073E13B /* Log.swift */,
+				F0D5F2A81B1743F50073E13B /* NetworkFetcher.swift */,
+				F0D5F2A91B1743F50073E13B /* NSFileManager+Haneke.swift */,
+				F0D5F2AA1B1743F50073E13B /* NSHTTPURLResponse+Haneke.swift */,
+				F0D5F2AB1B1743F50073E13B /* String+Haneke.swift */,
+				F0D5F2AC1B1743F50073E13B /* UIButton+Haneke.swift */,
+				F0D5F2AD1B1743F50073E13B /* UIImage+Haneke.swift */,
+				F0D5F2AE1B1743F50073E13B /* UIImageView+Haneke.swift */,
+				F0D5F2AF1B1743F50073E13B /* UIView+Haneke.swift */,
 			);
 			name = Haneke;
 			sourceTree = "<group>";
@@ -222,6 +226,7 @@
 			files = (
 				F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */,
 				F09E9FA41A771A6500010B0D /* siberian16.png in Resources */,
+				F0D5F2BA1B1743F50073E13B /* Info.plist in Resources */,
 				F09E9FFA1A7730DC00010B0D /* Info.plist in Resources */,
 				F071E48B1A79EF6A003540E0 /* LaunchScreen_dev.xib in Resources */,
 				F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */,
@@ -235,29 +240,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09E9FE71A772E1900010B0D /* Cache.swift in Sources */,
-				F09E9FE81A772E1900010B0D /* CGSize+Swift.swift in Sources */,
+				F0D5F2C21B1743F50073E13B /* UIImageView+Haneke.swift in Sources */,
+				F0D5F2B61B1743F50073E13B /* Fetch.swift in Sources */,
+				F0D5F2B91B1743F50073E13B /* Haneke.swift in Sources */,
 				F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */,
-				F09E9FF71A772E1900010B0D /* UIImageView+Haneke.swift in Sources */,
-				F09E9FEC1A772E1900010B0D /* DiskFetcher.swift in Sources */,
-				F09E9FF31A772E1900010B0D /* NSHTTPURLResponse+Haneke.swift in Sources */,
-				F09E9FEB1A772E1900010B0D /* DiskCache.swift in Sources */,
+				F0D5F2C11B1743F50073E13B /* UIImage+Haneke.swift in Sources */,
+				F0D5F2B81B1743F50073E13B /* Format.swift in Sources */,
+				F0D5F2C31B1743F50073E13B /* UIView+Haneke.swift in Sources */,
+				F0D5F2BF1B1743F50073E13B /* String+Haneke.swift in Sources */,
 				F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */,
-				F09E9FE91A772E1900010B0D /* CryptoSwiftMD5.swift in Sources */,
-				F09E9FED1A772E1900010B0D /* Fetch.swift in Sources */,
-				F09E9FF41A772E1900010B0D /* String+Haneke.swift in Sources */,
-				F09E9FF61A772E1900010B0D /* UIImage+Haneke.swift in Sources */,
-				F09E9FF51A772E1900010B0D /* UIButton+Haneke.swift in Sources */,
-				F09E9FF11A772E1900010B0D /* NetworkFetcher.swift in Sources */,
-				F09E9FF01A772E1900010B0D /* Haneke.swift in Sources */,
+				F0D5F2BE1B1743F50073E13B /* NSHTTPURLResponse+Haneke.swift in Sources */,
 				F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */,
-				F09E9FF81A772E1900010B0D /* UIView+Haneke.swift in Sources */,
+				F0D5F2BB1B1743F50073E13B /* Log.swift in Sources */,
+				F0D5F2BC1B1743F50073E13B /* NetworkFetcher.swift in Sources */,
+				F0D5F2B21B1743F50073E13B /* CryptoSwiftMD5.swift in Sources */,
+				F0D5F2B11B1743F50073E13B /* CGSize+Swift.swift in Sources */,
+				F0D5F2C01B1743F50073E13B /* UIButton+Haneke.swift in Sources */,
 				F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */,
-				F09E9FEE1A772E1900010B0D /* Fetcher.swift in Sources */,
-				F09E9FEA1A772E1900010B0D /* Data.swift in Sources */,
-				F09E9FEF1A772E1900010B0D /* Format.swift in Sources */,
+				F0D5F2B01B1743F50073E13B /* Cache.swift in Sources */,
+				F0D5F2B31B1743F50073E13B /* Data.swift in Sources */,
+				F0D5F2B51B1743F50073E13B /* DiskFetcher.swift in Sources */,
+				F0D5F2BD1B1743F50073E13B /* NSFileManager+Haneke.swift in Sources */,
 				F0682EEC1A76D79C00B60661 /* AppDelegate.swift in Sources */,
-				F09E9FF21A772E1900010B0D /* NSFileManager+Haneke.swift in Sources */,
+				F0D5F2B71B1743F50073E13B /* Fetcher.swift in Sources */,
+				F0D5F2B41B1743F50073E13B /* DiskCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

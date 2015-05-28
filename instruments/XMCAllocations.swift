@@ -42,14 +42,14 @@ class XMCAllocations: UIViewController {
         image9.image = nil
         
         // Slooooowwwww
-        for var x: Int = 0; x < 9; x++ {
-            loadSlowImage(index: x)
-        }
+//        for var x: Int = 0; x < 9; x++ {
+//            loadSlowImage(index: x)
+//        }
         
         // Cache that stuff
-//        for var x: Int = 0; x < 9; x++ {
-//            loadFastImage(index: x)
-//        }
+        for var x: Int = 0; x < 9; x++ {
+            loadFastImage(index: x)
+        }
         
         reloadAction.enabled = true
     }
