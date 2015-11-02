@@ -10,13 +10,13 @@ import UIKit
 
 class Object1 {
     var object: Object2?
-    deinit { println("Object1 is being deinitialized") }
+    deinit { print("Object1 is being deinitialized") }
 }
 
 class Object2 {
 //    weak var object: Object1? // assign weak to avoid a strong reference cycle
     var object: Object1?
-    deinit { println("Object2 is being deinitialized") }
+    deinit { print("Object2 is being deinitialized") }
 }
 
 class XMCLeaks: UIViewController {

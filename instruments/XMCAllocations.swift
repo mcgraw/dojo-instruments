@@ -54,7 +54,7 @@ class XMCAllocations: UIViewController {
         reloadAction.enabled = true
     }
     
-    func loadSlowImage(#index: Int) {
+    func loadSlowImage(index index: Int) {
         let url = NSURL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")
         if let path = url {
             let data = NSData(contentsOfURL: path)
@@ -85,28 +85,28 @@ class XMCAllocations: UIViewController {
         }
     }
     
-    func loadFastImage(#index: Int) {
+    func loadFastImage(index index: Int) {
         let url = NSURL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")!
         
         switch index {
         case 0:
-            image1.hnk_setImageFromURL(url)
+            image1.pin_setImageFromURL(url)
         case 1:
-            image2.hnk_setImageFromURL(url)
+            image2.pin_setImageFromURL(url)
         case 2:
-            image3.hnk_setImageFromURL(url)
+            image3.pin_setImageFromURL(url)
         case 3:
-            image4.hnk_setImageFromURL(url)
+            image4.pin_setImageFromURL(url)
         case 4:
-            image5.hnk_setImageFromURL(url)
+            image5.pin_setImageFromURL(url)
         case 5:
-            image6.hnk_setImageFromURL(url)
+            image6.pin_setImageFromURL(url)
         case 6:
-            image7.hnk_setImageFromURL(url)
+            image7.pin_setImageFromURL(url)
         case 7:
-            image8.hnk_setImageFromURL(url)
+            image8.pin_setImageFromURL(url)
         case 8:
-            image9.hnk_setImageFromURL(url)
+            image9.pin_setImageFromURL(url)
         default:
             break
         }

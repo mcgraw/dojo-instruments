@@ -44,7 +44,7 @@ class XMCTimeProfileImages: UIViewController {
     }
     
     func loadImage2() {
-        var path = NSBundle.mainBundle().pathForResource("siberian16", ofType: "png")!
+        let path = NSBundle.mainBundle().pathForResource("siberian16", ofType: "png")!
         let img = UIImage(contentsOfFile: path)
         if let i = img {
             image2.image = i
