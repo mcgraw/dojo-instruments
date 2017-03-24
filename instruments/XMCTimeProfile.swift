@@ -13,9 +13,9 @@ class XMCTimeProfile: UIViewController {
     @IBOutlet weak var status: UILabel!
     
     var numberList = [Int]()
-    var sessionQueue = dispatch_queue_create("session", DISPATCH_QUEUE_SERIAL)
+    var sessionQueue = DispatchQueue(label: "session", attributes: [])
 
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         status.text = "Generating random numbers"
@@ -26,37 +26,37 @@ class XMCTimeProfile: UIViewController {
         
     }
     
-    func sessionStep(status: (message: String) -> Void) {
-        dispatch_async(sessionQueue, {
+    func sessionStep(_ status: @escaping (_ message: String) -> Void) {
+        sessionQueue.async(execute: {
             
             self.generateRandomNumbers(500)
             
-            dispatch_async(dispatch_get_main_queue(), {
-                status(message: "Insertion Sort")
+            DispatchQueue.main.async(execute: {
+                status("Insertion Sort")
             })
             
             self.insertionSort()
 
-            dispatch_async(dispatch_get_main_queue(), {
-                status(message: "Done. Generating new numbers")
+            DispatchQueue.main.async(execute: {
+                status("Done. Generating new numbers")
             })
             
             self.generateRandomNumbers(500)
 
-            dispatch_async(dispatch_get_main_queue(), {
-                status(message: "Bubble Sort")
+            DispatchQueue.main.async(execute: {
+                status("Bubble Sort")
             })
             
             self.bubbleSort()
         
-            dispatch_async(dispatch_get_main_queue(), {
-                status(message: "Done")
+            DispatchQueue.main.async(execute: {
+                status("Done")
             })
         })
     }
     
-    func generateRandomNumbers(total: Int) {
-        for var i = 0; i < total; i++ {
+    func generateRandomNumbers(_ total: Int) {
+        for _ in 0 ..< total {
             let rand = Int(arc4random() % 100000)
             numberList.append(rand)
         }
@@ -65,28 +65,28 @@ class XMCTimeProfile: UIViewController {
     /* Reference: http://waynewbishop.com/swift/sorting-algorithms/
      */
     func insertionSort() {
-        var x, y, key: Int
+        var key: Int
         
-        for (x = 0; x < numberList.count; x++) {
+        for x in 0..<numberList.count {
             key = numberList[x]
             
-            for (y = x; y > -1; y--) {
+            for y in (0...x).reversed() {
                 if key < numberList[y] {
-                    numberList.removeAtIndex(y + 1)
-                    numberList.insert(key, atIndex: y)
+                    numberList.remove(at: y + 1)
+                    numberList.insert(key, at: y)
                 }
             }
         }
     }
     
     func bubbleSort() {
-        var x, y, z, passes, key : Int
+        var z, passes, key : Int
         
-        for (x = 0; x < numberList.count; ++x) {
+        for x in 0..<numberList.count {
             
             passes = (numberList.count - 1) - x;
             
-            for (y = 0; y < passes; y++) {
+            for y in 0..<passes {
                 key = numberList[y]
                 
                 if (key > numberList[y + 1]) {

@@ -15,7 +15,7 @@ class XMCTimeProfileImages: UIViewController {
     
     @IBOutlet weak var image3: UIImageView!
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         reload()
@@ -34,9 +34,9 @@ class XMCTimeProfileImages: UIViewController {
     }
     
     func loadSlowImage1() {
-        let url = NSURL(string: "http://www.xmcgraw.com/pets/png/siberian12.png")
+        let url = URL(string: "http://www.xmcgraw.com/pets/png/siberian12.png")
         if let path = url {
-            let data = NSData(contentsOfURL: path)
+            let data = try? Data(contentsOf: path)
             if let d = data {
                 image1?.image = UIImage(data: d)
             }
@@ -44,7 +44,7 @@ class XMCTimeProfileImages: UIViewController {
     }
     
     func loadImage2() {
-        let path = NSBundle.mainBundle().pathForResource("siberian16", ofType: "png")!
+        let path = Bundle.main.path(forResource: "siberian16", ofType: "png")!
         let img = UIImage(contentsOfFile: path)
         if let i = img {
             image2.image = i
