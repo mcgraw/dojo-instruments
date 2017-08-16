@@ -21,7 +21,7 @@ class Object2 {
 
 class XMCLeaks: UIViewController {
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         var obj1: Object1?

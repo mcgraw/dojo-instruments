@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PINRemoteImage
 
 class XMCAllocations: UIViewController {
 
@@ -22,14 +23,14 @@ class XMCAllocations: UIViewController {
     
     @IBOutlet weak var reloadAction: UIButton!
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         reload()
     }
     
     @IBAction func reload() {
-        reloadAction.enabled = false
+        reloadAction.isEnabled = false
         
         image1.image = nil
         image2.image = nil
@@ -47,17 +48,17 @@ class XMCAllocations: UIViewController {
 //        }
         
         // Cache that stuff
-        for var x: Int = 0; x < 9; x++ {
+        for x: Int in 0 ..< 9 {
             loadFastImage(index: x)
         }
         
-        reloadAction.enabled = true
+        reloadAction.isEnabled = true
     }
     
-    func loadSlowImage(index index: Int) {
-        let url = NSURL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")
+    func loadSlowImage(index: Int) {
+        let url = URL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")
         if let path = url {
-            let data = NSData(contentsOfURL: path)
+            let data = try? Data(contentsOf: path)
             if let d = data {
                 switch index {
                 case 0:
@@ -85,28 +86,28 @@ class XMCAllocations: UIViewController {
         }
     }
     
-    func loadFastImage(index index: Int) {
-        let url = NSURL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")!
+    func loadFastImage(index: Int) {
+        let url = URL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")!
         
         switch index {
         case 0:
-            image1.pin_setImageFromURL(url)
+            image1.pin_setImage(from: url)
         case 1:
-            image2.pin_setImageFromURL(url)
+            image2.pin_setImage(from: url)
         case 2:
-            image3.pin_setImageFromURL(url)
+            image3.pin_setImage(from: url)
         case 3:
-            image4.pin_setImageFromURL(url)
+            image4.pin_setImage(from: url)
         case 4:
-            image5.pin_setImageFromURL(url)
+            image5.pin_setImage(from: url)
         case 5:
-            image6.pin_setImageFromURL(url)
+            image6.pin_setImage(from: url)
         case 6:
-            image7.pin_setImageFromURL(url)
+            image7.pin_setImage(from: url)
         case 7:
-            image8.pin_setImageFromURL(url)
+            image8.pin_setImage(from: url)
         case 8:
-            image9.pin_setImageFromURL(url)
+            image9.pin_setImage(from: url)
         default:
             break
         }

@@ -1,0 +1,6 @@
+framework module Pods_dojo_instruments {
+  umbrella header "Pods-dojo-instruments-umbrella.h"
+
+  export *
+  module * { export * }
+}
