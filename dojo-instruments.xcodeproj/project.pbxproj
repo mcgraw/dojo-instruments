@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		EF1BA3010C83A363D5A1E9D4 /* Pods_dojo_instruments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42BCD2D10E5266C415BF3A04 /* Pods_dojo_instruments.framework */; };
 		F0682EEC1A76D79C00B60661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EEB1A76D79C00B60661 /* AppDelegate.swift */; };
-		F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */; };
+		F0682EF11A76D79C00B60661 /* TimeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0682EF01A76D79C00B60661 /* TimeProfile.swift */; };
 		F0682EF41A76D79C00B60661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF21A76D79C00B60661 /* Main.storyboard */; };
 		F0682EF61A76D79C00B60661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0682EF51A76D79C00B60661 /* Images.xcassets */; };
 		F071E48B1A79EF6A003540E0 /* LaunchScreen_dev.xib in Resources */ = {isa = PBXBuildFile; fileRef = F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */; };
-		F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */; };
+		F09E9FA21A7704FB00010B0D /* TimeProfileImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA11A7704FB00010B0D /* TimeProfileImages.swift */; };
 		F09E9FA41A771A6500010B0D /* siberian16.png in Resources */ = {isa = PBXBuildFile; fileRef = F09E9FA31A771A6500010B0D /* siberian16.png */; };
-		F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA51A77268500010B0D /* XMCAllocations.swift */; };
-		F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09EA0351A773D8E00010B0D /* XMCLeaks.swift */; };
+		F09E9FA61A77268500010B0D /* Allocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09E9FA51A77268500010B0D /* Allocations.swift */; };
+		F09EA0361A773D8E00010B0D /* Leaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09EA0351A773D8E00010B0D /* Leaks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,14 +25,14 @@
 		F0682EE61A76D79C00B60661 /* dojo-instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-instruments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0682EEA1A76D79C00B60661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0682EEB1A76D79C00B60661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCTimeProfile.swift; sourceTree = "<group>"; };
+		F0682EF01A76D79C00B60661 /* TimeProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProfile.swift; sourceTree = "<group>"; };
 		F0682EF31A76D79C00B60661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0682EF51A76D79C00B60661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_dev.xib; sourceTree = "<group>"; };
-		F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCTimeProfileImages.swift; sourceTree = "<group>"; };
+		F09E9FA11A7704FB00010B0D /* TimeProfileImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeProfileImages.swift; sourceTree = "<group>"; };
 		F09E9FA31A771A6500010B0D /* siberian16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siberian16.png; sourceTree = "<group>"; };
-		F09E9FA51A77268500010B0D /* XMCAllocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCAllocations.swift; sourceTree = "<group>"; };
-		F09EA0351A773D8E00010B0D /* XMCLeaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCLeaks.swift; sourceTree = "<group>"; };
+		F09E9FA51A77268500010B0D /* Allocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Allocations.swift; sourceTree = "<group>"; };
+		F09EA0351A773D8E00010B0D /* Leaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leaks.swift; sourceTree = "<group>"; };
 		FF9BD739E62842271F2D0FD2 /* Pods-dojo-instruments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dojo-instruments.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dojo-instruments/Pods-dojo-instruments.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,10 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				F0682EEB1A76D79C00B60661 /* AppDelegate.swift */,
-				F0682EF01A76D79C00B60661 /* XMCTimeProfile.swift */,
-				F09E9FA11A7704FB00010B0D /* XMCTimeProfileImages.swift */,
-				F09E9FA51A77268500010B0D /* XMCAllocations.swift */,
-				F09EA0351A773D8E00010B0D /* XMCLeaks.swift */,
+				F0682EF01A76D79C00B60661 /* TimeProfile.swift */,
+				F09E9FA11A7704FB00010B0D /* TimeProfileImages.swift */,
+				F09E9FA51A77268500010B0D /* Allocations.swift */,
+				F09EA0351A773D8E00010B0D /* Leaks.swift */,
 				F0682EF21A76D79C00B60661 /* Main.storyboard */,
 				F0682EF51A76D79C00B60661 /* Images.xcassets */,
 				F071E48A1A79EF6A003540E0 /* LaunchScreen_dev.xib */,
@@ -234,10 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09E9FA61A77268500010B0D /* XMCAllocations.swift in Sources */,
-				F0682EF11A76D79C00B60661 /* XMCTimeProfile.swift in Sources */,
-				F09E9FA21A7704FB00010B0D /* XMCTimeProfileImages.swift in Sources */,
-				F09EA0361A773D8E00010B0D /* XMCLeaks.swift in Sources */,
+				F09E9FA61A77268500010B0D /* Allocations.swift in Sources */,
+				F0682EF11A76D79C00B60661 /* TimeProfile.swift in Sources */,
+				F09E9FA21A7704FB00010B0D /* TimeProfileImages.swift in Sources */,
+				F09EA0361A773D8E00010B0D /* Leaks.swift in Sources */,
 				F0682EEC1A76D79C00B60661 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

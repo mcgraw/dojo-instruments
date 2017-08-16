@@ -1,5 +1,5 @@
 //
-//  XMCAllocations.swift
+//  Allocations.swift
 //  instruments
 //
 //  Created by David McGraw on 1/26/15.
@@ -9,8 +9,10 @@
 import UIKit
 import PINRemoteImage
 
-class XMCAllocations: UIViewController {
+class Allocations: UIViewController {
 
+    // MARK: - IBOutlets
+    
     @IBOutlet weak var image1: UIImageView!
     @IBOutlet weak var image2: UIImageView!
     @IBOutlet weak var image3: UIImageView!
@@ -23,13 +25,10 @@ class XMCAllocations: UIViewController {
     
     @IBOutlet weak var reloadAction: UIButton!
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        reload()
-    }
+    // MARK: - IBActions
     
     @IBAction func reload() {
+        
         reloadAction.isEnabled = false
         
         image1.image = nil
@@ -53,13 +52,30 @@ class XMCAllocations: UIViewController {
         }
         
         reloadAction.isEnabled = true
+        
     }
     
-    func loadSlowImage(index: Int) {
+    // MARK: - Lifecycle
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        reload()
+    }
+    
+    // MARK: - Private Methods
+    
+    /**
+     Loads a series of images from a remote location
+    */
+    fileprivate func loadSlowImage(index: Int) {
+        
         let url = URL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")
         if let path = url {
+            
             let data = try? Data(contentsOf: path)
             if let d = data {
+                
                 switch index {
                 case 0:
                     image1.image = UIImage(data: d)! // not nil please
@@ -82,11 +98,18 @@ class XMCAllocations: UIViewController {
                 default:
                     break
                 }
+                
             }
+            
         }
+        
     }
     
-    func loadFastImage(index: Int) {
+    /**
+     Loads a series of images from a remote location leveraging `PINRemoteImage`
+    */
+    fileprivate func loadFastImage(index: Int) {
+        
         let url = URL(string: "http://www.xmcgraw.com/pets/png/siberian\(index).png")!
         
         switch index {
@@ -111,5 +134,7 @@ class XMCAllocations: UIViewController {
         default:
             break
         }
+        
     }
+    
 }
